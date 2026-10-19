@@ -1,4 +1,4 @@
-def input_temperature(temp_str: str) -> None:
+def input_temperature(temp_str: str) -> int:
     if int(temp_str) < 0:
         raise ValueError(f"Caught input_temperature error: "
                          f"{temp_str}°C is too cold for plants (min 0°C)")
